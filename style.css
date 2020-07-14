@@ -1,0 +1,37 @@
+body{
+  margin:0;
+  padding:0;
+}
+h1{
+  padding: 4px;
+  border: dotted red;
+  display: inline-block;
+}
+h2{
+  color:red;
+}
+h3{
+  margin:20px;
+  background-color: lightblue;
+}
+p{
+  padding:10px;
+}
+.anime{
+  width:100px;
+  height:100px;
+  background-color: red;
+  transition: width 2s linear;
+  animation:anime 2s infinite;
+}
+@keyframes anime {
+  0%{
+    width:150px;
+  }
+  50%{
+    width:200px;
+  }
+  100%{
+    width:250px;
+  }
+}
